@@ -1,0 +1,22 @@
+
+version: '3'
+
+services:
+  
+  sqlite3:
+    image: nouchka/sqlite3:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/root/db/
+
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+      - 8083:8080
+      - 50003:50000
+    volumes:
+      - ~/jenkins_data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
