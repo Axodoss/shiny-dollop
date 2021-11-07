@@ -1,6 +1,6 @@
 
 ### Install
-* `git clone ...`
+* `git clone https://github.com/Axodoss/shiny-dollop.git`
 * `cd shiny-dollop`
 * `docker-compose build`
 * `docker-compose up -d`
