@@ -1,4 +1,16 @@
 
+### Install
+* `git clone ...`
+* `cd shiny-dollop`
+* `docker-compose build`
+* `docker-compose up -d`
+* jenkins + variables + jobs
+
+
+### Environment Variables
+TODO
+
+
 ### Commands
 * `docker-compose build` - build
 * `docker-compose up -d` - start (in detached mode)
