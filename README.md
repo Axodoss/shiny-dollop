@@ -4,10 +4,14 @@
 * `cd shiny-dollop`
 * `docker-compose build`
 * `docker-compose up -d`
-* jenkins + variables + jobs
+* jenkins + variables + database + jobs
 
 
 ### Environment Variables
+TODO
+
+
+### Links
 TODO
 
 
